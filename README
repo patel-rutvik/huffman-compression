@@ -1,0 +1,16 @@
+Name: Rutvik Patel
+ID  : 1530012
+CMPUT 274 Fall 2018
+Assignment 1: Huffman Coding
+
+Included files:
+   * util.py
+   * README
+
+Running Instructions and Notes:
+
+    In order to correctly run the program, you must have the util.py file within the directory with the other files required to run this program (see assignment criteria). Then you must call the program while being in the same directory in terminal with the file util.py. Then, use the command: python3 ../webserver.py to launch the web server at the web address localhost:8000. The program will then take the compressed file/image and then decompress and display to the web server. The program can also strictly compress a file and create a new output file with a '.huf' extension on it. To run the compressor, use the command: python3 ../compress.py <file_to_compress_here>. If you want to view a specific file/image being compressed/uncompressed, you can save the file in the wwwroot/ directory and then run the decompressor as stated previously and visit the web address localhost:8000/<file_name_here>. 
+
+Assumptions:
+
+    The program has error handling built in, so if a unreadable file is passed through, the program will output an error, and the program will then terminate. 
