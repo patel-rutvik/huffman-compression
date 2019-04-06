@@ -1,4 +1,4 @@
-# Encryped Arduino Communication
+# Huffman Compression
 ## Summary
 This program demonstrates the implementation of the "greedy" [Huffman Algorithm](https://en.wikipedia.org/wiki/Huffman_coding "Huffman Algorithm"). To achieve this, we compress each bit using a huffman tree, and also compress the huffman tree itself using the [Pickle Module](https://docs.python.org/3.1/library/pickle.html "Pickle Module"). It is then decompressed by walking up the  tree and displayed on localhost:8000 on the user's computer.
 ## How To Use
